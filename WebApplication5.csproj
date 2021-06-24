@@ -5,4 +5,9 @@
     <UserSecretsId>e2be1b1d-5e69-436a-b1fa-17fc4276b32e</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
+    <PackageReference Include="Microsoft.Owin.Cors" Version="4.2.0" />
+  </ItemGroup>
+
 </Project>
