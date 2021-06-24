@@ -38,6 +38,8 @@ namespace WebApplication5
 
             app.UseRouting();
 
+            app.UseCors("AllowAllOrigins");
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
